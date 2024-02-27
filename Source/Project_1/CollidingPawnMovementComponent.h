@@ -15,8 +15,6 @@ class PROJECT_1_API UCollidingPawnMovementComponent : public UPawnMovementCompon
 	GENERATED_BODY()
 	
 public:
-	UCollidingPawnMovementComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
-
 	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 private: 

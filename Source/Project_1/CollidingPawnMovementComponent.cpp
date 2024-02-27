@@ -2,14 +2,6 @@
 
 #include "CollidingPawnMovementComponent.h"
 
-
-UCollidingPawnMovementComponent::UCollidingPawnMovementComponent(const FObjectInitializer& ObjectInitializer)
-{
-   /* RegisterComponent();
-    PrimaryComponentTick.bCanEverTick = true;
-    PrimaryComponentTick.bStartWithTickEnabled = true;*/
-}
-
 void UCollidingPawnMovementComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
